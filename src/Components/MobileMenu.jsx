@@ -31,7 +31,7 @@ const MobileMenu = () => {
         </Link>
       </div>
       <div>
-        <Link  to="/portfolio">
+        <Link  to="/blogs">
           <img src={blogIcon} alt="" />
         </Link>
       </div>

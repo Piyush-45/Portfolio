@@ -74,25 +74,26 @@ export const services = [
 export const blogs = [
   {
     id: 1,
+    blogDate: "May 19 2023",
+    blogTitle: "Simplifying State Management with React’s useContext Hook",
+    blogImage: `${blog3}`,
+    a: `https://piyushtyagidev.hashnode.dev/simplifying-state-management-with-reacts-usecontext-hook`,
+  },
+  {
+    id: 2,
     blogDate: "10 Jan 2023",
     blogTitle: "JavaScript Variables Under the Hood",
     blogImage: `${blog1}`,
     a: `https://piyushtyagidev.hashnode.dev/javascript-variables-under-the-hood-how-var-let-and-const-impact-hoisting-scoping-and-shadowing`,
   },
   {
-    id: 2,
+    id: 3,
     blogDate: "14 Jan 2023",
     blogTitle: "Unlocking the Power of Array Method",
     blogImage: `${blog2}`,
     a: `https://piyushtyagidev.hashnode.dev/unlocking-the-power-of-array-methods-a-comprehensive-guide-to-map-filter-and-reduce-in-javascript`,
   },
-  {
-    id: 3,
-    blogDate: "May 19 2023",
-    blogTitle: "Simplifying State Management with React’s useContext Hook",
-    blogImage: `${blog3}`,
-    a: `https://piyushtyagidev.hashnode.dev/simplifying-state-management-with-reacts-usecontext-hook`,
-  },
+ 
 ];
 
 export const projects = [
