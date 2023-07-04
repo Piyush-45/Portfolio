@@ -502,12 +502,7 @@ h3 {
 
 }
 
-.service-box:hover {
-    /* margin-top: 1rem; */
-    transform: translateY(-1rem);
 
-
-}
 
 .service-icon {
     width: 15rem;
@@ -883,8 +878,6 @@ textarea:focus {
 .portfolio_description,
 .item-1,
 .about_p_3,
-
-.service-box,
 .button,
 .blog {
     animation: opacity ease-out 1.3s;
@@ -1036,6 +1029,7 @@ html.sr .load-hidden {
         width: 2.7rem;
 
     }
+ 
 
     .cv_btn {
         font-size: 1.3rem;
