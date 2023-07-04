@@ -12,7 +12,7 @@ import About from "./Pages/About";
 import Services from "./Pages/Services";
 import Contact from "./Pages/Contact";
 import Projects from "./Pages/Projects";
-
+import { motion } from "framer-motion";
 import image from "./images/swiper_webp/backgroundimage.png";
 
 // ?router

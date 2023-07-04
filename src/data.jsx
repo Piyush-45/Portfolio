@@ -3,11 +3,12 @@ import webdevices from "./images/undraw_web_devices_re_m8sc (1).svg";
 import responsive from "./images/responsive.svg";
 import bugfixing from "./images/bug fixing.svg";
 import seo from "./images/search-engine-optimization.png";
+import native1 from "./images/native1.svg";
+import revamp from "./images/revamp.svg"
 
 import blog1 from "./images/blog_images/hoisting.webp";
 import blog2 from "./images/blog_images/blog2.webp";
 import blog3 from "./images/blog_images/usecontext cover image.png";
-
 // !project images
 import layer_1 from "../src/images/swiper_webp/layer-ss-1-webp.webp";
 import layer_2 from "../src/images/swiper_webp/layerss-2.webp";
@@ -18,9 +19,14 @@ import ff2 from "../src/images/swiper_webp/ff2.webp";
 import ff3 from "../src/images/swiper_webp/filmfrenzy desktop 1.webp";
 import ffcheck1 from "../src/images/swiper_webp/checkff1.png";
 
+
 import spacex1 from "../src/images/swiper_webp/space-x-1.webp";
 import spacex2 from "../src/images/swiper_webp/space-x-2.webp";
 import spacex3 from "../src/images/swiper_webp/space-x-3.webp";
+
+import jh1 from "./images/swiper_webp/jh2.webp"
+import jh2 from "./images/swiper_webp/jh3.webp"
+import jh3 from "./images/swiper_webp/jh4.webp"
 
 import hb1 from "../src/images/swiper_webp/hoo1.webp";
 import hb2 from "../src/images/swiper_webp/hoo2.webp";
@@ -30,6 +36,10 @@ import github from "../src/images/githubf.png";
 import plateful1 from "../src/images/swiper_webp/plateful1.webp";
 import plateful2 from "../src/images/swiper_webp/plateful2.webp";
 import plateful3 from "../src/images/swiper_webp/plateful3.webp";
+
+import ef1 from "../src/images/swiper_webp/ef1.webp";
+import ef2 from "../src/images/swiper_webp/ef3.webp";
+import ef3 from "../src/images/swiper_webp/ef5.webp";
 
 export const aboutme = [
   {
@@ -43,32 +53,50 @@ export const aboutme = [
 export const services = [
   {
     id: 1,
-    image: `${webdevices}`,
-    service_name: "WEB DESIGNER",
+    image: `${responsive}`,
+    // service_name: "Responsive / Mobile First",
+    // service_detail:
+    //   "Get a mobile-first website. Fully responsive for all screen sizes, from small screens, tablets, to desktops.",
+    service_name: "Responsive Web Sorcerer",
     service_detail:
-      "From nothing to working, get your idea designed and developed. And I Will help you in telling that story.",
+      "Harnessing the power of ReactJS sorcery to craft responsive and mobile-first web marvels",
   },
   {
     id: 2,
-    image: `${responsive}`,
-    service_name: "Responsive / Mobile First",
+    image: `${native1}`,
+    service_name: "React Native Enthusiast",
     service_detail:
-      "Get a mobile-first website. Fully responsive for all screen sizes, from small screens, tablets, to desktops.",
+      "Electrifying apps with the sheer force of React Native prowess",
   },
   {
     id: 3,
-    image: `${bugfixing}`,
-    service_name: "Revamp Your Website",
+    image: `${revamp}`,
+    service_name: "Website Revamp Specialist",
     service_detail:
-      "Improve a present website, fix bugs, or add a new feature to your site.",
+      "Revitalizing your online presence with a refreshed and modernized website design",
   },
   {
     id: 4,
-    image: `${seo}`,
-    service_name: "SEO Optimization",
+    image: `${webdevices}`,
+    service_name: "Creative Web Design",
     service_detail:
-      "Content is what the search engines use to fulfill user intent. Get Your websites SEO optimized and Go above and beyond",
+      "Transforming your ideas into visually stunning web designs that tell your unique story",
   },
+  
+  {
+    id: 5,
+    image:`${bugfixing}`,
+    service_name:"Bug-Fixing Extraordinaire",
+    service_detail:"Solving website woes and ensuring flawless functionality through meticulous bug fixing."
+    
+  },
+  {
+    id:6,
+    image:`${seo}`,
+    service_name: "SEO Optimization Maestro",
+    service_detail:
+      "Boosting your online visibility and driving organic traffic through expert SEO techniques.",
+  }
 ];
 
 export const blogs = [
@@ -93,10 +121,21 @@ export const blogs = [
     blogImage: `${blog2}`,
     a: `https://piyushtyagidev.hashnode.dev/unlocking-the-power-of-array-methods-a-comprehensive-guide-to-map-filter-and-reduce-in-javascript`,
   },
- 
 ];
 
 export const projects = [
+  {
+    id: 1,
+    image1: `${ef1}`,
+    image2: `${ef2}`,
+    image3: `${ef3}`,
+    description_heading: `ElixirFlicks: Your Personalized Path to Cinematic Bliss and Wonder`,
+    description_para: `Discover "ElixirFlicks" - a captivating ReactJS project with CSS and Firebase authentication. Unleash the power of "Emotion Elixir," a groundbreaking feature that empowers users to filter movies and shows based on their mood, enhancing their content discovery experience. With optimized performance and a seamless user interface, "ElixirFlicks" offers an engaging and immersive journey into the world of entertainment. Unveil a new era of personalized cinematic bliss with this innovative application.`,
+    live_site_link: `https://emowatch.netlify.app/`,
+    live_site: "Live Site",
+    github_image: `${github}`,
+    github_link: `https://github.com/Piyush-45/EmoWatch`,
+  },
   {
     id: 1,
     image1: `${plateful1}`,
@@ -134,6 +173,12 @@ export const projects = [
     github_image: `${github}`,
     github_link: `https://github.com/Piyush-45/layerscheck1`,
   },
+  // {
+  //   id:4,
+  //   image1:`${jh1}`,
+  //   image2:`${jh2}`,
+  //   image3:`${jh3}`,
+  // },
   {
     id: 4,
     image1: `${spacex1}`,
@@ -160,7 +205,6 @@ export const projects = [
     github_image: `${github}`,
     github_link: `https://github.com/Piyush-45/hoobank_payements`,
   },
-  
 ];
 
 // export const aboutme = [

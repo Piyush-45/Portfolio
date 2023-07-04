@@ -1,14 +1,17 @@
 import React from "react";
 import Typed from "typed.js";
-
+import { motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 import MobileMenu from "../Components/MobileMenu";
+
 const Home = () => {
   const el = useRef(null);
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: [' a frontend web developer.', ' a freelancer.', ' a designer  and build beautiful websites.'],
+      strings: ["Versatile Web and React Developer",
+      "Responsive Web and Mobile Freelancer",
+      "Agile Design Freelancer"],
       // Speed settings, try diffrent values untill you get good results
       startDelay: 30,
       typeSpeed:70,
@@ -22,7 +25,7 @@ const Home = () => {
     };
   }, []);
   return (
-    <main className="main_middle about_middle">
+    <motion.main className="main_middle about_middle" initial={{opacity:0, x:100}} animate={{opacity:1, x:0}} transition={{duration:1}}>
       <div className="piyush">
         <h1>Piyush Tyagi</h1>
         <div className="im">
@@ -30,7 +33,7 @@ const Home = () => {
         </div>
       </div>
       <MobileMenu/>
-    </main>
+    </motion.main>
   );
 };
 

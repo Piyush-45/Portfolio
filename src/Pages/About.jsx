@@ -6,11 +6,11 @@ import css from "../images/css blue.png";
 import js from "../images/javascript yellow.png";
 import reactjs from "../images/react icon.svg";
 import tailwind from "../images/tailwind css.jpg";
-import api from "../images/apis.png"
+import api from "../images/apis.png";
 import github from "../images/github color.png";
-import webdesign from "../images/web design.png"
-import firebase from "../images/firebase2.png"
-import nextjs from "../images/next js.png"
+import webdesign from "../images/web design.png";
+import firebase from "../images/firebase2.png";
+import nextjs from "../images/next js.png";
 import MobileMenu from "../Components/MobileMenu";
 const About = () => {
   return (
@@ -22,7 +22,7 @@ const About = () => {
         <AboutmeTop />
         <div className="skills_icons">
           <div className="portfolio_description">
-          Here are a few technologies I've been working with recently :
+            Here are a few technologies I've been working with recently :
           </div>
 
           <div className="skills_icons_container">
@@ -69,12 +69,19 @@ const About = () => {
           </div>
         </div>
 
-        <MobileMenu/>
+        {/* <a href="https://github.com/Piyush-45" className="cv_btn">
+        Download CV
+      </a> */}
+        <div className="resume_container">
+          <a href="https://github.com/Piyush-45" className="cv_btn about-cv">
+            Download CV
+          </a>
+        </div>
+        <MobileMenu />
       </main>
     </>
   );
 };
-
 
 const AboutmeTop = () => {
   return (

@@ -4,17 +4,27 @@ import MobileMenu from "../Components/MobileMenu";
 import { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import "swiper/css";
 
 import { projects } from "../data";
+const cardVariants = {
+  initial: {
+    opacity: 0,
+    y: 20,
+  },
+  animate: {
+    opacity: 1,
+    y: 0,
 
-// import "swiper/css/pagination";
-// import "swiper/css/navigation";
-
-// import layer_1 from "../images/swiper_webp/layer-ss-1-webp.webp";
-// import layer_2 from "../images/swiper_webp/layerss-2.webp";
-// import layer_3 from "../images/swiper_webp/layer-ss-3-webp.webp";
+    transition: {
+      duration: 0.3,
+      ease: "easeOut",
+    },
+  },
+}
 const Projects = () => {
   return (
     <main className="project_middle about_middle">

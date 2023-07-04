@@ -93,6 +93,34 @@ body {
     justify-content: center;
 }
 
+/* Add the following CSS to your stylesheet */
+
+.underline-hover {
+    position: relative;
+    display: inline-block;
+}
+
+.underline-hover::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary-green);
+    /* Change the color as desired */
+    transition: width 0.5s ease-in-out;
+    /* Adjust the duration as desired */
+}
+
+.underline-hover:hover::before {
+    width: 100%;
+}
+
+/* Add the following CSS to your stylesheet */
+
+
+
 
 .parent_container {
 
@@ -127,8 +155,8 @@ aside {
 }
 
 .profile_photo {
-    width: 18rem;
-
+    width: 10rem;
+    border-radius: 50%;
 }
 
 .name {
@@ -139,7 +167,7 @@ aside {
 aside p {
     font-size: 1.8rem;
     font-weight: 400;
-    color: #909090;
+    color: #D2E9E9;
 
 }
 
@@ -171,19 +199,42 @@ aside p {
 }
 
 
-
 .cv_btn {
-    color: #f5f5f5;
-
-    font-size: 1.5rem;
-    border: 1px solid #f5f5f5;
-    padding: 0.8rem 3rem;
-    border-radius: 4.3rem;
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    /* border-radius: 2rem ; */
+    background-color: var(--primary-green);
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
 }
 
-.cv_btn:hover {
-    color: #0b9876;
-    background-color: #f5f5f5;
+.cv_btn::before {
+    content: "Download CV";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 1rem 1rem;
+    text-align: center;
+    border: 1px solid white;
+    background-color: #444;
+
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+}
+
+.cv_btn span {
+    position: relative;
+    z-index: 1;
+}
+
+.cv_btn:hover::before {
+    transform: translateY(0);
 }
 
 .menu {
@@ -391,7 +442,7 @@ main {
     margin-top: 1.8rem;
 }
 
-.cv-btn {
+.about-cv {
     display: none;
 }
 
@@ -416,7 +467,6 @@ h4 {
     margin-inline: 0.8rem;
     margin-top: 1.5rem;
     text-align: center;
-    /* box-shadow: var(--shadpw); */
     border-radius: 5px;
     padding: 2.5rem 3rem;
     /* transition: all 0.2s linear; */
@@ -531,7 +581,8 @@ h3 {
 .blog_details {
     width: 90%;
     margin: 0 auto;
-    ;
+    display: flex;
+    flex-direction: column;
 }
 
 .blog_date {
@@ -684,6 +735,7 @@ textarea:focus {
 
 
 }
+
 /* 
 .button {
     background: #222;
@@ -715,43 +767,41 @@ textarea:focus {
 
 .button:hover {
     /* color: var(--primary-green); */
-    /* background: var(--primary-green);
+/* background: var(--primary-green);
     transition: ease-in 0.3s;
 }  */
-         
+
 .btn-grad {
-    background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  41%, #02AAB0  90%);
+    background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC 41%, #02AAB0 90%);
     margin-top: 1rem;
-    font-size: 2rem;
-    color: white;
+    font-size: 1.4rem;
     font-weight: 400;
-    padding: 1.2rem 4rem;
+    padding: 0.8rem 2.5rem;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;            
+    color: black;
     box-shadow: 0 0 10px #eee;
-    border-radius: 10px;
+    border-radius: 2px;
     display: block;
     border: none;
-    
-  }
 
-  .btn-grad:hover {
-    background-position: right center; /* change the direction of the change here */
+}
+
+.btn-grad:hover {
+    background-position: right center;
     color: #fff;
     text-decoration: none;
     cursor: pointer;
-  }
- 
+}
+
 
 /* ! ******* ANIMATIONS of inner pages ******** */
 
 
 
-
-@keyframes fade-in-move-right {
+/* @keyframes fade-in-move-right {
     0% {
         opacity: 0;
         transform: translateX(-3rem);
@@ -761,9 +811,9 @@ textarea:focus {
         opacity: 1;
         transform: translateX(0);
     }
-}
+} */
 
-@keyframes fade-in-right-to-left {
+/* @keyframes fade-in-right-to-left {
     0% {
         opacity: 0;
         transform: translateX(10rem);
@@ -773,7 +823,7 @@ textarea:focus {
         opacity: 1;
         transform: translateX(0);
     }
-}
+} */
 
 @keyframes top-to-bottom {
     0% {
@@ -798,7 +848,7 @@ textarea:focus {
         transform: translateY(0%);
 
     }
-}
+} 
 
 @keyframes opacity {
     0% {
@@ -813,27 +863,27 @@ textarea:focus {
 
 
 .skills_icons_container {
-    /* animation: opacity ease-out 2s; */
+ 
     animation: bottom-to-top 1.3s ease-out;
 }
 
-h3,
+ h3,
 .blogs_h2,
 .services_h2,
 .about_h2,
 .projects_h2,
 .skills_header_description {
     animation: top-to-bottom ease 1s;
-}
+} 
 
-.name-half,
+/* .name-half, */
 .msg-half,
 .about_p_1,
 .about_p_2,
 .portfolio_description,
 .item-1,
 .about_p_3,
-.card,
+
 .service-box,
 .button,
 .blog {
@@ -844,15 +894,15 @@ h3,
 
 .mobile-social-card {
     display: none;
-}
+} 
 
 /* ======= projects section ===== */
 .project_1 {
     display: grid;
-    grid-template-columns:  1fr;
+    grid-template-columns: 1fr;
     /* gap: 1rem; */
     column-gap: 1rem;
-    row-gap:2rem;
+    row-gap: 2rem;
     padding: 1rem 1.2rem;
 
 }
@@ -864,7 +914,7 @@ h3,
 
 .swiper img {
     width: 100%;
-    height: 100%; 
+    height: 40rem;
     object-fit: cover;
 }
 
@@ -934,6 +984,14 @@ html.sr .load-hidden {
     visibility: hidden;
 }
 
+.resume_container {
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+    /* padding: 1rem 1rem; */
+
+}
 
 
 /* @keyframes fade-in-right-to-left {
@@ -1244,6 +1302,9 @@ html.sr .load-hidden {
     aside {
         display: none;
     }
+.about-cv{
+    display: inline-block;
+}
 
     /* 840px */
     .profile_photo {
@@ -1331,6 +1392,11 @@ html.sr .load-hidden {
     padding-inline: 0.5rem;
 }
 
+.skills_icons_container p {
+    font-size: 1.3rem;
+    color: #D2E9E9;
+}
+
 @media screen and (max-width:51.8em) {
 
     /* 828px */
@@ -1342,23 +1408,12 @@ html.sr .load-hidden {
         display: none;
     }
 
-    .cv-btn {
-        display: inline-block;
-        display: flex;
-        gap: 01rem;
-        font-size: 1.5rem;
-        border: 2px solid #333;
-        width: fit-content;
-        margin-top: 1rem;
-        padding: 1rem 1.2rem;
-        align-self: center;
-        border-radius: 10px;
-        background: var(--primary-green);
-        font-weight: 700;
-        outline: none;
-        box-shadow: 10px 12px 11px -6px rgb(11 152 118 / 44%);
 
-
+    .cv_btn {
+        min-height: 40px;
+        min-width: fit-content; /* Add a minimum height to accommodate the button content */
+        line-height: 1;
+        padding: 1rem;
 
     }
 
