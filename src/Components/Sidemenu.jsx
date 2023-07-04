@@ -6,12 +6,12 @@ import servicesIcon from "../images/code f.png";
 import projectsIcon from "../images/briefcase green.png";
 import contactIcon from "../images/mail green.png";
 import blogIcon from "../images/blog green.png";
-
+import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 const Sidemenu = () => {
   return (
-    <div className="menu">
+    <motion.div className="menu" initial={{opacity:0, x:10}} animate={{opacity:1, x:0}} transition={{duration:2}}>
       <div className="icon home">
         <div className="tooltip">Home</div>
         <Link to="/">
@@ -63,7 +63,7 @@ const Sidemenu = () => {
           </span>
         </Link>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

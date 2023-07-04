@@ -12,6 +12,7 @@ import webdesign from "../images/web design.png";
 import firebase from "../images/firebase2.png";
 import nextjs from "../images/next js.png";
 import MobileMenu from "../Components/MobileMenu";
+import native from "../images/native1.svg"
 const About = () => {
   return (
     <>
@@ -49,6 +50,10 @@ const About = () => {
             <div className="react si">
               <img src={reactjs} alt="" />
               <p>React JS</p>
+            </div>
+            <div className="react si">
+              <img src={native} alt="" />
+              <p>React Native</p>
             </div>
             <div className="tailwind si">
               <img src={nextjs} alt="" />

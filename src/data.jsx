@@ -44,9 +44,8 @@ import ef3 from "../src/images/swiper_webp/ef5.webp";
 export const aboutme = [
   {
     heading: "About ",
-    aboutme_p1: `Hello ! My Name is Piyush Tyagi. I'm a self taught Frontend Web Developer building the Front-end of Websites and Web Applications that leads to the success of the overall product`,
-    aboutme_p2: `I like to resolve design problems, create smart user interface and imagine useful interaction, developing rich web experiences & web applications. When not working or futzing around with code, I study how to escape from University. Actually for hire.
-    Check out some of my work `,
+    aboutme_p1: `  Welcome to my portfolio website! I'm Piyush Tyagi, a Frontend Web Developer specializing in React. With expertise in both ReactJS and React Native, I create visually stunning and highly functional websites and applications. I'm passionate about delivering seamless user experiences and staying up-to-date with the latest industry trends.`,
+    aboutme_p2: `  I thrive in collaborative environments, where I can contribute my skills and work closely with clients and fellow developers. Let's turn your ideas into reality. Explore my portfolio and let's collaborate!`,
   },
 ];
 
