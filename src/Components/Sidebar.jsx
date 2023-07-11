@@ -42,7 +42,7 @@ const Sidebar = () => {
           </li>
         </ul>
       </div>
-      <a href="https://github.com/Piyush-45" className="cv_btn">
+      <a href="https://drive.google.com/file/d/17zUvt6rsKVO0ERnZPqX6b8LY8LYV8bzo/view?usp=sharing" target="_blank" className="cv_btn">
         Download CV
       </a>
       <div className="copyright">© 2022 All rights reserved.</div>

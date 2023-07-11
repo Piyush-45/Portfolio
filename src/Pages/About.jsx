@@ -12,7 +12,7 @@ import webdesign from "../images/web design.png";
 import firebase from "../images/firebase2.png";
 import nextjs from "../images/next js.png";
 import MobileMenu from "../Components/MobileMenu";
-import native from "../images/native1.svg"
+import native from "../images/native1.svg";
 const About = () => {
   return (
     <>
@@ -78,7 +78,7 @@ const About = () => {
         Download CV
       </a> */}
         <div className="resume_container">
-          <a href="https://github.com/Piyush-45" className="cv_btn about-cv">
+          <a href="https://drive.google.com/file/d/17zUvt6rsKVO0ERnZPqX6b8LY8LYV8bzo/view?usp=sharing" target="_blank"  className="cv_btn about-cv">
             Download CV
           </a>
         </div>
@@ -91,15 +91,23 @@ const About = () => {
 const AboutmeTop = () => {
   return (
     <>
-      {aboutme.map(({ aboutme_p1, aboutme_p2 }) => {
-        return (
-          <div className="text_about_me">
-            <div className="about_p_1">{aboutme_p1}</div>
-            <br />
-            <div className="about_p_2">{aboutme_p2}</div>
-          </div>
-        );
-      })}
+      {aboutme.map(
+        ({ aboutme_p1, aboutme_p2, aboutme_p3, aboutme_p4, aboutme_p5 }) => {
+          return (
+            <div className="text_about_me">
+              <div className="about_p_1">{aboutme_p1}</div>
+              <br />
+              <div className="about_p_2">{aboutme_p2}</div>
+              <br />
+              <div className="about_p_1">{aboutme_p3}</div>
+              <br />
+              <div className="about_p_1">{aboutme_p4}</div>
+              <br />
+              <div className="about_p_1">{aboutme_p5}</div>
+            </div>
+          );
+        }
+      )}
     </>
   );
 };

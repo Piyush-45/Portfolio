@@ -88,7 +88,7 @@ const Contact = () => {
                   />
                 </motion.div>
 
-                <motion.div className="msg-half" initial={{opacity:0, x:100}} animate={{x:0, opacity:1}} transition={{duration:2}}>
+                <motion.div className="msg-half" initial={{opacity:0, x:100}} animate={{x:0, opacity:1}} transition={{duration:1}}>
                   <textarea
                     id="message"
                     name="message"

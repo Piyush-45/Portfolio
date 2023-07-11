@@ -44,8 +44,14 @@ import ef3 from "../src/images/swiper_webp/ef5.webp";
 export const aboutme = [
   {
     heading: "About ",
-    aboutme_p1: `  Welcome to my portfolio website! I'm Piyush Tyagi, a Frontend Web Developer specializing in React. With expertise in both ReactJS and React Native, I create visually stunning and highly functional websites and applications. I'm passionate about delivering seamless user experiences and staying up-to-date with the latest industry trends.`,
-    aboutme_p2: `  I thrive in collaborative environments, where I can contribute my skills and work closely with clients and fellow developers. Let's turn your ideas into reality. Explore my portfolio and let's collaborate!`,
+    // aboutme_p1: `  Welcome to my portfolio website! I'm Piyush Tyagi, a Frontend Web Developer specializing in React. With expertise in both ReactJS and React Native, I create visually stunning and highly functional websites and applications. I'm passionate about delivering seamless user experiences and staying up-to-date with the latest industry trends.`,
+    // aboutme_p2: `  I thrive in collaborative environments, where I can contribute my skills and work closely with clients and fellow developers. Let's turn your ideas into reality. Explore my portfolio and let's collaborate!`,
+    aboutme_p1:`Hello, I'm Piyush Tyagi, a passionate self-taught coder with a focus on frontend web development. After my secondary high school, I embarked on a journey of self-learning to pursue my passion for programming. I faced setbacks, like not clearing the JEE exam and enrolling in a private B.Tech college with outdated syllabi and rote learning methods.`,
+    aboutme_p2 :`However, these challenges didn't deter me. I took matters into my own hands and started exploring various programming languages and libraries. That's when I discovered the power of JavaScript and the versatility of the React environment. I was captivated by the way React enables seamless and interactive user experiences.`,
+    aboutme_p3:`Since then, I have been honing my skills as a frontend web developer with a specialization in React JS. I have built numerous projects, gaining hands-on experience in crafting intuitive user interfaces and optimizing web performance. With a strong foundation in HTML, CSS, and JavaScript, coupled with my expertise in React, I am adept at bringing designs to life and creating engaging web experiences.`,
+    aboutme_p4:`I am now eager to contribute my skills and passion to a dynamic team that values innovation and cutting-edge technologies. As a frontend web developer with a focus on React, I am committed to delivering high-quality code and enhancing user satisfaction.
+    `,
+    aboutme_p5:`Thank you for taking the time to review my profile. I look forward to discussing how I can contribute to your team's success.`
   },
 ];
 
