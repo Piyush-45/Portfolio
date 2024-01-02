@@ -7,12 +7,15 @@ import js from "../images/javascript yellow.png";
 import reactjs from "../images/react icon.svg";
 import tailwind from "../images/tailwind css.jpg";
 import api from "../images/apis.png";
+import mongodb from "../images/mongodb.jpeg";
+import expressjs from "../images/epxressjs.jpeg";
+import nodejs from "../images/nodejs.jpeg";
 import github from "../images/github color.png";
 import webdesign from "../images/web design.png";
 import firebase from "../images/firebase2.png";
 import nextjs from "../images/next js.png";
+import native from "../images/react native.jpeg";
 import MobileMenu from "../Components/MobileMenu";
-import native from "../images/native1.svg";
 const About = () => {
   return (
     <>
@@ -50,6 +53,18 @@ const About = () => {
             <div className="react si">
               <img src={reactjs} alt="" />
               <p>React JS</p>
+            </div>
+             <div className="react si">
+              <img src={nodejs} alt="" />
+              <p>Node JS</p>
+            </div>
+              <div className="react si">
+              <img src={expressjs} alt="" />
+              <p>Express JS</p>
+            </div>
+              <div className="react si">
+              <img src={mongo} alt="" />
+              <p>Mongo DB</p>
             </div>
             <div className="react si">
               <img src={native} alt="" />
