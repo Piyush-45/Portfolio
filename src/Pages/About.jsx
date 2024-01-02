@@ -8,7 +8,7 @@ import reactjs from "../images/react icon.svg";
 import tailwind from "../images/tailwind css.jpg";
 import api from "../images/apis.png";
 import mongodb from "../images/mongodb.jpeg";
-import expressjs from "../images/epxressjs.jpeg";
+// import expressjs from "../images/epxressjs.jpeg";
 import nodejs from "../images/nodejs.jpeg";
 import github from "../images/github color.png";
 import webdesign from "../images/web design.png";
