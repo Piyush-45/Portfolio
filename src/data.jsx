@@ -3,7 +3,7 @@ import webdevices from "./images/undraw_web_devices_re_m8sc (1).svg";
 import responsive from "./images/responsive.svg";
 import bugfixing from "./images/bug fixing.svg";
 import seo from "./images/search-engine-optimization.png";
-import native1 from "./images/native1.svg";
+import native1 from "./images/react native.jpeg";
 import revamp from "./images/revamp.svg"
 
 import blog1 from "./images/blog_images/hoisting.webp";
@@ -64,7 +64,7 @@ export const services = [
     //   "Get a mobile-first website. Fully responsive for all screen sizes, from small screens, tablets, to desktops.",
     service_name: "Responsive Web Sorcerer",
     service_detail:
-      "Harnessing the power of ReactJS sorcery to craft responsive and mobile-first web marvels",
+      "As a MERN stack developer and React Native enthusiast, I bring electrifying apps to life through the powerful combination of MongoDB, Express.js, React, and Node.js. With a passion for crafting seamless user experiences"
   },
   {
     id: 2,
