@@ -63,7 +63,7 @@ const About = () => {
               <p>Express JS</p>
             </div> */}
               <div className="react si">
-              <img src={mongo} alt="" />
+              <img src={mongodb} alt="" />
               <p>Mongo DB</p>
             </div>
             <div className="react si">
