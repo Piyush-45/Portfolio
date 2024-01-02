@@ -58,10 +58,10 @@ const About = () => {
               <img src={nodejs} alt="" />
               <p>Node JS</p>
             </div>
-              <div className="react si">
+{/*               <div className="react si">
               <img src={expressjs} alt="" />
               <p>Express JS</p>
-            </div>
+            </div> */}
               <div className="react si">
               <img src={mongo} alt="" />
               <p>Mongo DB</p>
