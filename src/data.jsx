@@ -64,7 +64,7 @@ export const services = [
     //   "Get a mobile-first website. Fully responsive for all screen sizes, from small screens, tablets, to desktops.",
     service_name: "Responsive Web Sorcerer",
     service_detail:
-      "As a MERN stack developer and React Native enthusiast, I bring electrifying apps to life through the powerful combination of MongoDB, Express.js, React, and Node.js. With a passion for crafting seamless user experiences"
+      "Crafting electrifying apps with the MERN stack and a React Native flair. MongoDB, Express.js, React, Node.js — the dynamic quartet behind my passion for seamless user experiences."
   },
   {
     id: 2,
