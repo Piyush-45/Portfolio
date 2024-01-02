@@ -9,9 +9,7 @@ const Home = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Versatile Web and React Developer",
-      "Responsive Web and Mobile Freelancer",
-      "Agile Design Freelancer"],
+     strings: [' Full-Stack MERN Developer.', 'Cross-Platform App Developer(React Native)', 'YouTube Content Creator'],
       // Speed settings, try diffrent values untill you get good results
       startDelay: 30,
       typeSpeed:70,
