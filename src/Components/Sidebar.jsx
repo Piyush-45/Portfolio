@@ -5,6 +5,7 @@ import git from "../images/swiper_webp/git webp.webp";
 import twitter from "../images/swiper_webp/twitter-webp.webp";
 import linkedin from "../images/swiper_webp/linkdin-webp.webp";
 import profilePhoto from "../images/profile.svg";
+import youtube from "../images/youicons.png";
 import { motion } from "framer-motion";
 // !importing css
 
@@ -38,6 +39,14 @@ const Sidebar = () => {
               target="_blank"
             >
               <motion.img src={linkedin} alt="" whileHover={{scale:1.1}}/>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://youtube.com/@flowingFrontend03?si=Ci_crGwJiHsje2uq"
+              target="_blank"
+            >
+              <motion.img src={youtube} alt="" whileHover={{scale:1.1}}/>
             </a>
           </li>
         </ul>
