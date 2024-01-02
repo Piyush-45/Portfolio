@@ -938,6 +938,10 @@ textarea:focus {
     font-size: 1.6rem;
     margin-top: 0.5rem;
 }
+.appDescriptionp{
+    font-size: 1.6rem;
+    margin-top: 0.5rem;
+}
 
 .desc a {
     color: #f5f5f5;
