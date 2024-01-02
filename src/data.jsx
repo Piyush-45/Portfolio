@@ -135,10 +135,16 @@ export const projects = [
     image2: `${ef2}`,
     image3: `${ef3}`,
     description_heading: `ElixirFlicks: Your Personalized Path to Cinematic Bliss and Wonder`,
-    description_para: `Discover "ElixirFlicks" - a captivating ReactJS project with CSS and Firebase authentication. Unleash the power of "Emotion Elixir," a groundbreaking feature that empowers users to filter movies and shows based on their mood, enhancing their content discovery experience. With optimized performance and a seamless user interface, "ElixirFlicks" offers an engaging and immersive journey into the world of entertainment. Unveil a new era of personalized cinematic bliss with this innovative application.`,
+    description_para: (
+      <>
+        Discover <strong>"ElixirFlicks"</strong> - a captivating ReactJS project with
+        <span style={{ color: "#0b9876", fontWeight: 'bold' }}> CSS and Firebase authentication.</span>
+        Unleash the power of  <span style={{ color: "#0b9876", fontWeight: 'bold' }}>"Emotion Elixir"</span>, a groundbreaking feature that empowers users to filter movies and shows based on their mood, enhancing their content discovery experience. With optimized performance and a seamless user interface, "ElixirFlicks" offers an engaging and immersive journey into the world of entertainment. Unveil a new era of personalized cinematic bliss with this innovative application.
+      </>
+    ),
     live_site_link: `https://emowatch.netlify.app/`,
     live_site: "Live Site",
-    github_image: `${github}`,
+    github_image: `${github}`, 
     github_link: `https://github.com/Piyush-45/EmoWatch`,
   },
   {
@@ -147,8 +153,11 @@ export const projects = [
     image2: `${plateful2}`,
     image3: `${plateful3}`,
     description_heading: `Plateful: Elevate Your Culinary Journey `,
-    description_para: ` 
-  Plateful is a captivating frontend web development project, designed using React JS and CSS 3, that takes recipe management to new heights. With Firebase integration, users can create accounts, ensuring a secure experience, and save their cherished recipes. The app features an intuitive UI, complete with a smart search box and voice-powered audio search, making it a delightful and convenient cooking companion. `,
+    description_para: (
+      <>
+        Plateful is a captivating frontend web development project, designed using <span style={{ color: "#0b9876", fontWeight: 'bold' }}> React JS and CSS 3</span>, that takes recipe management to new heights. With <span style={{ color: "#0b9876", fontWeight: 'bold' }}> Firebase integration</span>, users can create accounts, ensuring a secure experience, and save their cherished recipes. The app features an intuitive UI, complete with a smart search box and <span style={{ color: "#0b9876", fontWeight: 'bold' }}> voice-powered audio search</span>, making it a delightful and convenient cooking companion.
+      </>
+    ),
     live_site_link: `https://plateful.netlify.app/`,
     live_site: "Live Site",
     github_image: `${github}`,
@@ -160,7 +169,11 @@ export const projects = [
     image2: `${ff2}`,
     image3: `${ff1}`,
     description_heading: `Filmfrenzy`,
-    description_para: `FilmFrenzy is a  video streaming app built with React JS and CSS 3 for the UI and Firebase for the backend. In this application user can create thier account  and save their favourite shows, hence it also has authentication.  `,
+    description_para: (
+      <>
+        FilmFrenzy is a video streaming app built with  <span style={{ color: "#0b9876", fontWeight: 'bold' }}> React JS and CSS 3  for the UI and Firebase</span> for the backend . In this application user can create their account and save their favorite shows, hence it also has <span style={{ color: "#0b9876", fontWeight: 'bold' }}> authentication.</span>
+      </>
+    ),
     live_site_link: `https://filmyfrenzy.netlify.app`,
     live_site: "Live Site",
     github_image: `${github}`,
@@ -172,27 +185,27 @@ export const projects = [
     image2: `${layer_2}`,
     image3: `${layer_3}`,
     description_heading: `Layers`,
-    description_para: `A frontend for an eCommerce website built with Html5, CSS3, Vanila JS. It is one of my personal projects, the goal was to build a site with no frameworks and libraries and to show my core Javascript skills.   `,
+    description_para: (
+      <>
+        A frontend for an eCommerce website built with  <span style={{ color: "#0b9876", fontWeight: 'bold' }}>Html5, CSS3, Vanilla JS.</span> It is one of my personal projects, the goal was to build a site with no frameworks and libraries and to show my core Javascript skills.
+      </>
+    ),
     live_site_link: `https://layers-check.netlify.app`,
     live_site: "Live Site",
     github_image: `${github}`,
     github_link: `https://github.com/Piyush-45/layerscheck1`,
   },
-  // {
-  //   id:4,
-  //   image1:`${jh1}`,
-  //   image2:`${jh2}`,
-  //   image3:`${jh3}`,
-  // },
   {
     id: 4,
     image1: `${spacex1}`,
     image2: `${spacex2}`,
     image3: `${spacex3}`,
     description_heading: `Clone of SpaceX`,
-    description_para: ` A Clone website of SpaceX, built with Html5, CSS3, Tailwind
-    CSS. It is one of my personal project, the goal was to build component based website
-    with HTML, CSS, without using any framework`,
+    description_para: (
+      <>
+        A Clone website of SpaceX, built <span style={{ color: "#0b9876", fontWeight: 'bold' }}> with Html5, CSS3, Tailwind CSS.</span> It is one of my personal projects, the goal was to build a component-based website with HTML, CSS, without using any framework.
+      </>
+    ),
     live_site_link: `https://spacexclone1.netlify.app/index.html`,
     live_site: "Live Site",
     github_image: `${github}`,
@@ -204,14 +217,17 @@ export const projects = [
     image2: `${hb2}`,
     image3: `${hb1}`,
     description_heading: `HooBank`,
-    description_para: ` A Modern UI/UX website made with React js And Tailwind css.The goal was to showcase my react skills like. Multi page, authorization and some oher advanced and interactive feature  is coming soon... `,
+    description_para: (
+      <>
+        A Modern UI/UX website made with<span style={{ color: "#0b9876", fontWeight: 'bold' }}> React JS And Tailwind CSS</span>. The goal was to showcase my react skills like Multi-page, authorization, and some other advanced and interactive features are coming soon...
+      </>
+    ),
     live_site_link: `https://hoobankpayement.netlify.app/`,
     live_site: "Live Site",
     github_image: `${github}`,
     github_link: `https://github.com/Piyush-45/hoobank_payements`,
   },
 ];
-
 // export const aboutme = [
 //   {
 //     heading: "About me",
