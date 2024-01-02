@@ -2,6 +2,7 @@ import React from "react";
 import { blogs } from "../data";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import MobileMenu from "../Components/MobileMenu";
 
 const cardVariants = {
   initial: {
@@ -40,6 +41,7 @@ const Blogs = () => {
           </div>
         );
       })}
+      <MobileMenu/>
     </main>
   );
 };
