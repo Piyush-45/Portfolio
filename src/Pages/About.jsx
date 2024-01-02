@@ -10,6 +10,8 @@ import api from "../images/apis.png";
 import mongodb from "../images/mongodb.jpeg";
 // import expressjs from "../images/epxressjs.jpeg";
 import nodejs from "../images/nodejs.jpeg";
+import express from "../images/expressjs.jpeg
+";
 import github from "../images/github color.png";
 import webdesign from "../images/web design.png";
 import firebase from "../images/firebase2.png";
@@ -58,10 +60,10 @@ const About = () => {
               <img src={nodejs} alt="" />
               <p>Node JS</p>
             </div>
-{/*               <div className="react si">
-              <img src={expressjs} alt="" />
+              <div className="react si">
+              <img src={express} alt="" />
               <p>Express JS</p>
-            </div> */}
+            </div>
               <div className="react si">
               <img src={mongodb} alt="" />
               <p>Mongo DB</p>
