@@ -1472,8 +1472,13 @@ html.sr .load-hidden {
 
     }
 
+   
     .mobile-menu {
         visibility: visible;
+        background-color: #444444;
+        padding:1rem;
+        border-radius: 2rem;
+        
 
     }
 
