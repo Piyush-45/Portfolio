@@ -51,7 +51,7 @@ const Sidebar = () => {
           </li>
         </ul>
       </div>
-      <a href="https://drive.google.com/file/d/1dX0aQF_tZr3N0UYCYfq2J_NAilzlv4wy/view?usp=sharing" className="cv_btn">
+      <a href="https://drive.google.com/file/d/1BzoBg9Jc15UFN3HDWxnajvc2ZgmqERV8/view?usp=sharing" className="cv_btn">
         Download CV
       </a>
       <div className="copyright">© 2022 All rights reserved.</div>
